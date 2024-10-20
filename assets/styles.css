@@ -1,0 +1,21 @@
+/* Aseguramos que las imágenes de la galería se mantengan proporcionales y ocupen todo el espacio disponible */
+.hero {
+  background-image: url("https://via.placeholder.com/1200x600");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.gallery img {
+  margin-bottom: 15px;
+}
