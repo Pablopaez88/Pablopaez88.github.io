@@ -1,6 +1,5 @@
-/* Aseguramos que las imágenes de la galería se mantengan proporcionales y ocupen todo el espacio disponible */
 .hero {
-  background-image: url("https://via.placeholder.com/1200x600");
+  background-image: url("./imagenes/codigo_de_programacion.jpg");
   background-size: cover;
   background-position: center;
   height: 80vh;
@@ -18,4 +17,12 @@
 
 .gallery img {
   margin-bottom: 15px;
+}
+.img-hover {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.img-hover:hover {
+  transform: scale(1.5);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
